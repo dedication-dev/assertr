@@ -1,0 +1,13 @@
+[package]
+name = "assertr"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dedication-dev/assertr"
+homepage = "https://github.com/dedication-dev/assertr"
+description = """
+Ergonomic assertion utilities.
+"""
+categories = ["development-tools::testing"]
+keywords = ["testing", "assertions"]

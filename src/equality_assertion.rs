@@ -8,11 +8,11 @@ pub trait EqualityAssertion<T> {
     ///
     /// # Panics
     ///
-    /// When [PartialEq] returns false.
+    /// Panics when [PartialEq] returns false.
     ///
     /// # Examples
     /// ```
-    /// # use assertr::EqualityAssertion;
+    /// # use assertr::EqualityAssertion as _;
     /// 1.should_be(1);
     /// ```
     fn should_be(self, expected: T);
